@@ -1,0 +1,1 @@
+This is the open-source FastSellingSolutions.com website built upon Next.js.
