@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   :root {
-    --blue: #2261A7;
+    --blue: #2360a7;
     --light-blue: #2EB0ED;
     --light-blue-hover: #82d0f5;
     --green: #41B550;
@@ -11,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
     --lighter-black: #949494;
     --light-grey: #ededed;
     --max-width: 1000px;
+    --nav-height: 100px;
     --bs: 0 12px 24px 0 rgba(0, 0, 0, 0.09);
     --card-border: 1px solid #dadada;
   }
@@ -95,7 +96,7 @@ const GlobalStyles = createGlobalStyle`
     max-width: var(--max-width);
     min-height: 90vh;
     margin: 0 auto;
-    padding: 4rem 2rem;
+    padding: calc(var(--nav-height) + 4rem) 2rem;
   }
   
   .middle-center {
