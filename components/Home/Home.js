@@ -1,10 +1,8 @@
-import styled from 'styled-components';
-import Form from '../Form';
+import Hero from './Hero';
 
 const Home = () => (
   <div>
-    <h1>Home Page!</h1>
-    <Form />
+    <Hero />
   </div>
 );
 
