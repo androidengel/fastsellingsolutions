@@ -28,7 +28,7 @@ const NavStyles = styled.nav`
     & p {
       margin: 0;
       padding: 0 2rem;
-      line-height: 1px;
+      line-height: 1;
       text-align: center;
     }
     & a {
@@ -36,6 +36,7 @@ const NavStyles = styled.nav`
       font-weight: bold;
       color: var(--orange);
       text-decoration: none;
+      line-height: 1.5
     }
   }
   @media (max-width: 768px) {
@@ -69,6 +70,13 @@ const NavLinks = styled.ul`
   }
   a {
     text-decoration: none;
+  }
+  @media (max-width: 768px) {
+    justify-content: center;
+    li {
+      padding-left: 0;
+      padding-right: 4rem;
+    }
   }
 `;
 

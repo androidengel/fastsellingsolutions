@@ -13,9 +13,7 @@ const PageLayout = ({ children }) => (
     <StyledPage>
       <Meta />
       <Nav />
-      <div className="inner-content">
-        {children}
-      </div>
+      {children}
     </StyledPage>
   </>
 );

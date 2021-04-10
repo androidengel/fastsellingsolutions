@@ -8,6 +8,7 @@ const GlobalStyles = createGlobalStyle`
     --green: #41B550;
     --orange: #F3880A;
     --black: #393939;
+    --red: #f04646;
     --lighter-black: #949494;
     --light-grey: #ededed;
     --max-width: 1000px;
