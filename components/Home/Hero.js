@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Form from '../Form';
+import PropertyForm from '../PropertyForm';
 
 const HeroStyles = styled.section`
   display: flex;
@@ -29,7 +29,7 @@ const Hero = () => (
     <div className="inner-content">
       <Split>
         <h1>A simplified home-selling experience.</h1>
-        <Form />
+        <PropertyForm />
       </Split>
     </div>
   </HeroStyles>
