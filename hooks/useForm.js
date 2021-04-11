@@ -26,7 +26,7 @@ const useForm = (initial = {}) => {
   };
 
   return {
-    inputs, handleChange, handleErrors, clearForm,
+    inputs, setInputs, handleChange, handleErrors, clearForm,
   };
 };
 
