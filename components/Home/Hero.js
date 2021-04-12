@@ -10,15 +10,17 @@ const HeroStyles = styled.section`
   margin: 0 auto;
   padding: calc(var(--nav-height) + 4rem) 2rem;
   height: 90vh;
-  h1 {
-    font-size: 6rem;
-    line-height: 1.15;
-    width: 50%;
-  }
 `;
 
 const Split = styled.div`
   display: flex;
+  & > div {
+    width: 50%;
+  }
+  h1 {
+    font-size: 6rem;
+    line-height: 1.15;
+  }
   form {
     width: 60rem;
   }
@@ -28,7 +30,10 @@ const Hero = () => (
   <HeroStyles>
     <div className="inner-content">
       <Split>
-        <h1>A simplified home-selling experience.</h1>
+        <div>
+          <h1>A simplified home-selling experience.</h1>
+          <p>We buy problem properties without hassle. No cleanup, no repairs.</p>
+        </div>
         <PropertyForm />
       </Split>
     </div>
