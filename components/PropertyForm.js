@@ -1,6 +1,15 @@
+import styled from 'styled-components';
+import Image from 'next/image';
 import AddressInput from './AddressInput';
 import useForm from '../hooks/useForm';
 import FormStyles from './styles/FormStyles';
+
+const Title = styled.div`
+  display: flex;
+  h2 {
+    padding-right: 1rem;
+  }
+`;
 
 const PropertyForm = () => {
   const {
@@ -10,7 +19,15 @@ const PropertyForm = () => {
   return (
     <FormStyles>
       <fieldset>
-        <h2>Tell us about your property!</h2>
+        <Title>
+          <h2>Start here for an all-cash offer!</h2>
+          <Image src="/arrow.png" height={50} width={30} />
+        </Title>
+        <label htmlFor="name" name="name">
+          Name
+          <span className="asterisk">*</span>
+          <input type="text" name="name" value={inputs.name} onChange={handleChange} required />
+        </label>
         <label htmlFor="address" name="address">
           Property address
           <span className="asterisk">*</span>
