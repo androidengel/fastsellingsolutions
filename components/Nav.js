@@ -12,6 +12,7 @@ const NavStyles = styled.nav`
   display: flex;
   justify-content: space-evenly;
   color: var(--blue);
+  z-index: 10;
   a {
     color: var(--blue);
   }
