@@ -6,10 +6,10 @@ const HeroStyles = styled.section`
   background-image: url('/hero-background.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   margin: 0 auto;
   padding: calc(var(--nav-height) + 4rem) 2rem;
-  height: 90vh;
+  height: 80vh;
 `;
 
 const Split = styled.div`
