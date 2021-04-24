@@ -95,7 +95,7 @@ const GlobalStyles = createGlobalStyle`
   }
   .inner-content {
     max-width: var(--max-width);
-    min-height: 90vh;
+    /* min-height: 90vh; */
     margin: 0 auto;
     padding: calc(var(--nav-height) + 4rem) 2rem;
   }
@@ -106,6 +106,15 @@ const GlobalStyles = createGlobalStyle`
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .heading {
+    font-size: 4.6rem;
+  }
+
+  .sub-heading p {
+    line-height: 1.4;
+    margin: 0;
   }
 `;
 
