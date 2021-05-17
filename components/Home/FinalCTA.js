@@ -20,7 +20,7 @@ const SubHeading = styled.div`
 
 const FinalCTA = () => (
   <FinalCTAStyles>
-    <div className="inner-content">
+    <div className="inner-section">
       <h1 className="heading">No strings attached</h1>
       <SubHeading className="sub-heading">
         <p>Contact us today for a fair cash offer.</p>

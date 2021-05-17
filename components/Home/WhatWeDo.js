@@ -8,7 +8,7 @@ const WhatWeDoStyles = styled.div`
 
 const WhatWeDo = () => (
   <WhatWeDoStyles>
-    <div className="inner-content">
+    <div className="inner-section">
       <section>
         <h1 className="heading">Selling your home made easy</h1>
         <p>

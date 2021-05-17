@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const NavStyles = styled.nav`
-  border-bottom: var(--card-border);
-  box-shadow: var(--bs);
+  /* border-bottom: var(--card-border);
+  box-shadow: var(--bs); */
   position: fixed;
   background: white;
   width: 100%;

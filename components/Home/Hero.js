@@ -20,6 +20,7 @@ const Split = styled.div`
   h1 {
     font-size: 6rem;
     line-height: 1.15;
+    padding-bottom: 1rem;
   }
   form {
     width: 60rem;
@@ -32,7 +33,10 @@ const Hero = () => (
       <Split>
         <div>
           <h1>A simplified home-selling experience.</h1>
-          <p>We buy problem properties without hassle. No cleanup, no repairs.</p>
+          <div className="sub-heading">
+            <p>We buy problem properties without hassle.</p>
+            <p>No cleanup, no repairs.</p>
+          </div>
         </div>
         <PropertyForm />
       </Split>

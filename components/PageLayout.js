@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles';
 import Meta from './Meta';
 import Nav from './Nav';
+import Footer from './Footer';
 
 const StyledPage = styled.div`
   color: var(--black);
@@ -14,6 +15,7 @@ const PageLayout = ({ children }) => (
       <Meta />
       <Nav />
       {children}
+      <Footer />
     </StyledPage>
   </>
 );

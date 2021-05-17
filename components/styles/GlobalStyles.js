@@ -100,6 +100,13 @@ const GlobalStyles = createGlobalStyle`
     padding: calc(var(--nav-height) + 4rem) 2rem;
   }
   
+  .inner-section {
+    max-width: var(--max-width);
+    /* min-height: 90vh; */
+    margin: 0 auto;
+    padding: 0 2rem 11rem 2rem;
+  }
+  
   .middle-center {
     text-align: center;
     height: 30vh;
@@ -115,6 +122,10 @@ const GlobalStyles = createGlobalStyle`
   .sub-heading p {
     line-height: 1.4;
     margin: 0;
+  }
+
+  .centered {
+    text-align: center;
   }
 `;
 
