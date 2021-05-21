@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Image from 'next/image';
 import AddressInput from './AddressInput';
 import useForm from '../hooks/useForm';
+import useProperty from '../hooks/useProperty';
 import FormStyles from './styles/FormStyles';
 
 const Title = styled.div`
@@ -17,11 +18,13 @@ const PropertyForm = () => {
     setInputs,
     handleChange,
     clearForm,
+  } = useForm({ address: '' });
+  const {
     submitForm,
     loading,
     message,
     error,
-  } = useForm({ address: '' });
+  } = useProperty(inputs);
 
   if (message) console.log(message);
 
