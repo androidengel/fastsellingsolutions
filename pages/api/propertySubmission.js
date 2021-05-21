@@ -10,7 +10,6 @@ const transporter = nodemailer.createTransport({
     pass: process.env.MAIL_PASS,
   },
 });
-console.log(process.env.MAIL_HOST);
 
 export default async function handler(req, res) {
   // send mail
@@ -22,7 +21,3 @@ export default async function handler(req, res) {
   });
   res.status(200).json(info);
 }
-
-// export default (req, res) => {
-//   res.status(200).json({ name: 'John Doe' });
-// };

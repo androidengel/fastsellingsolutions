@@ -13,11 +13,20 @@ const Title = styled.div`
 
 const PropertyForm = () => {
   const {
-    inputs, setInputs, handleChange, clearForm,
+    inputs,
+    setInputs,
+    handleChange,
+    clearForm,
+    submitForm,
+    loading,
+    message,
+    error,
   } = useForm({ address: '' });
 
+  if (message) console.log(message);
+
   return (
-    <FormStyles>
+    <FormStyles onSubmit={submitForm}>
       <fieldset>
         <Title>
           <h2>Start here for an all-cash offer!</h2>
@@ -45,7 +54,8 @@ const PropertyForm = () => {
             <input type="phone" name="phone" value={inputs.phone} onChange={handleChange} required />
           </label>
         </div>
-        <button type="submit">MAKE ME AN OFFER!</button>
+        <div>{error ? `<p>Error: ${error}</p>` : ''}</div>
+        <button type="submit" disabled={loading}>{(loading) ? 'SUBMITTING ...' : 'MAKE ME AN OFFER!'}</button>
       </fieldset>
     </FormStyles>
   );
