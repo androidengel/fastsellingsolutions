@@ -32,7 +32,7 @@ const Hero = () => (
     <div className="inner-content">
       <Split>
         <div>
-          <h1>A simplified home-selling experience.</h1>
+          <h1>A simplified house-selling experience.</h1>
           <div className="sub-heading">
             <p>We buy problem properties without hassle.</p>
             <p>No cleanup, no repairs.</p>
