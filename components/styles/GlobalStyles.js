@@ -127,6 +127,10 @@ const GlobalStyles = createGlobalStyle`
   .centered {
     text-align: center;
   }
+
+  .full-page {
+    min-height: 90vh;
+  }
   
   #fax {
     display: none;
