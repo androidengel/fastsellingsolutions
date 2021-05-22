@@ -12,12 +12,23 @@ const transporter = nodemailer.createTransport({
 });
 
 export default async function handler(req, res) {
+  const {
+    name, address, email, phone,
+  } = req.body;
+
   // send mail
   const info = await transporter.sendMail({
-    from: 'Terold Phillips <terold@example.com>',
+    from: `${name} <${email}>`,
     to: 'properties@example.com',
-    subject: 'sell my house!',
-    html: '<p>Please sell my house now!</p>',
+    subject: 'New Property Submission!',
+    html: `<p>You received a new property submission:</p>
+      <address>
+        ${name}</br>
+        ${address}</br>
+        ${email}</br>
+        ${phone}</br>
+      </address>
+    `,
   });
   res.status(200).json(info);
 }
