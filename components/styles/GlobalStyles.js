@@ -127,6 +127,10 @@ const GlobalStyles = createGlobalStyle`
   .centered {
     text-align: center;
   }
+  
+  #fax {
+    display: none;
+  }
 `;
 
 export default GlobalStyles;

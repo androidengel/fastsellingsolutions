@@ -13,9 +13,18 @@ const transporter = nodemailer.createTransport({
 
 export default async function handler(req, res) {
   const {
-    name, address, email, phone,
+    name, address, email, phone, fax,
   } = req.body;
 
+  if (fax) {
+    res.status(401).json({ message: 'Nobody faxes' });
+    return;
+  }
+
+  if (!name || !address || !email) {
+    res.status(401).json({ message: 'Please fill out all required fields' });
+    return;
+  }
   // send mail
   const info = await transporter.sendMail({
     from: `${name} <${email}>`,

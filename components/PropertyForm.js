@@ -35,10 +35,11 @@ const PropertyForm = () => {
           <h2>Start here for an all-cash offer!</h2>
           <Image src="/arrow.png" height={50} width={30} />
         </Title>
+        <input type="text" name="fax" id="fax" value={inputs.fax} onChange={handleChange} />
         <label htmlFor="name" name="name">
           Name
           <span className="asterisk">*</span>
-          <input type="text" name="name" value={inputs.name} onChange={handleChange} required />
+          <input type="text" name="name" id="name" value={inputs.name} onChange={handleChange} required />
         </label>
         <label htmlFor="address" name="address">
           Property address
@@ -49,15 +50,14 @@ const PropertyForm = () => {
           <label htmlFor="email" name="email">
             Email
             <span className="asterisk">*</span>
-            <input type="email" name="email" value={inputs.email} onChange={handleChange} required />
+            <input type="email" name="email" id="email" value={inputs.email} onChange={handleChange} required />
           </label>
           <label htmlFor="phone" name="phone">
             Phone
-            <span className="asterisk">*</span>
-            <input type="phone" name="phone" value={inputs.phone} onChange={handleChange} required />
+            <input type="phone" name="phone" id="phone" value={inputs.phone} onChange={handleChange} />
           </label>
         </div>
-        <div>{error ? `<p>Error: ${error}</p>` : ''}</div>
+        <div>{error ? <p>{`Error: ${error}`}</p> : ''}</div>
         <button type="submit" disabled={loading}>{(loading) ? 'SUBMITTING ...' : 'MAKE ME AN OFFER!'}</button>
       </fieldset>
     </FormStyles>
