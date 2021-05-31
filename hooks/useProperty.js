@@ -1,9 +1,10 @@
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 
 const useProperty = (values) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState();
-  const [message, setMessage] = useState('');
+  const router = useRouter();
 
   const submitForm = async (e) => {
     e.preventDefault();
@@ -24,14 +25,13 @@ const useProperty = (values) => {
       setError(text.message);
     } else {
       // success!
-      setLoading(false);
-      setMessage('Success! We\'ll be in contact with you about your property soon.');
+      router.push('/success?type=propsub');
+      // setLoading(false);
     }
   };
 
   return {
     submitForm,
-    message,
     loading,
     error,
   };

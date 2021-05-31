@@ -22,11 +22,8 @@ const PropertyForm = () => {
   const {
     submitForm,
     loading,
-    message,
     error,
   } = useProperty(inputs);
-
-  if (message) console.log(message);
 
   return (
     <FormStyles onSubmit={submitForm}>
