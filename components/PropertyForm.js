@@ -30,7 +30,7 @@ const PropertyForm = () => {
       <fieldset>
         <Title>
           <h2>Start here for an all-cash offer!</h2>
-          <Image src="/arrow.png" height={50} width={30} />
+          <Image src="/down-arrow.svg" height={50} width={50} />
         </Title>
         <input type="text" name="fax" id="fax" value={inputs.fax} onChange={handleChange} />
         <label htmlFor="name" name="name">
