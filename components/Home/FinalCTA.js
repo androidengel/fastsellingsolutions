@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import GenericForm from './GenericForm';
+import PropertyForm from '../PropertyForm';
 
 const FinalCTAStyles = styled.div`
   display: flex;
@@ -26,7 +26,7 @@ const FinalCTA = () => (
         <p>Contact us today for a fair cash offer.</p>
         <p>There is no obligation to sell – that is 100% up to you.</p>
       </SubHeading>
-      <GenericForm />
+      <PropertyForm />
     </div>
   </FinalCTAStyles>
 );

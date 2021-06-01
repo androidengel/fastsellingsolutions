@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Image from 'next/image';
 import PropertyForm from '../PropertyForm';
 
 const HeroStyles = styled.section`
@@ -27,6 +28,13 @@ const Split = styled.div`
   }
 `;
 
+const Title = styled.div`
+  display: flex;
+  h2 {
+    padding-right: 1rem;
+  }
+`;
+
 const Hero = () => (
   <HeroStyles>
     <div className="inner-content">
@@ -38,7 +46,12 @@ const Hero = () => (
             <p>No cleanup, no repairs.</p>
           </div>
         </div>
-        <PropertyForm />
+        <PropertyForm>
+          <Title>
+            <h2>Start here for an all-cash offer!</h2>
+            <Image src="/down-arrow.svg" height={50} width={50} />
+          </Title>
+        </PropertyForm>
       </Split>
     </div>
   </HeroStyles>

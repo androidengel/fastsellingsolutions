@@ -1,18 +1,9 @@
-import styled from 'styled-components';
-import Image from 'next/image';
 import AddressInput from './AddressInput';
 import useForm from '../hooks/useForm';
 import useProperty from '../hooks/useProperty';
 import FormStyles from './styles/FormStyles';
 
-const Title = styled.div`
-  display: flex;
-  h2 {
-    padding-right: 1rem;
-  }
-`;
-
-const PropertyForm = () => {
+const PropertyForm = (props) => {
   const {
     inputs,
     setInputs,
@@ -28,10 +19,7 @@ const PropertyForm = () => {
   return (
     <FormStyles onSubmit={submitForm}>
       <fieldset>
-        <Title>
-          <h2>Start here for an all-cash offer!</h2>
-          <Image src="/down-arrow.svg" height={50} width={50} />
-        </Title>
+        {props.children}
         <input type="text" name="fax" id="fax" value={inputs.fax} onChange={handleChange} />
         <label htmlFor="name" name="name">
           Name
