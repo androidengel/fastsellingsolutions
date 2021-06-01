@@ -25,10 +25,16 @@ export default async function handler(req, res) {
     res.status(401).json({ message: 'Please fill out all required fields' });
     return;
   }
+
+  if (email && !email.match(/[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/gm)) {
+    res.status(401).json({ message: 'Invalid email' });
+    return;
+  }
+
   // send mail
   const info = await transporter.sendMail({
     from: `${name} <${email}>`,
-    to: 'properties@example.com',
+    to: process.env.MAIL_TO,
     subject: 'New Property Submission!',
     html: `<p>You received a new property submission:</p>
       <address>
