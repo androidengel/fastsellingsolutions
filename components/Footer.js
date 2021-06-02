@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const FooterStyles = styled.footer`
-  min-height: 20rem;
   background: var(--light-grey);
   img {
     margin: 0 auto;
@@ -31,7 +30,7 @@ const Copyright = styled.div`
     text-align: center;
     font-size: 1.2rem;
     margin: 0;
-    padding: 0;
+    padding: 1.2rem 0 0 0;
   }
 `;
 
@@ -53,7 +52,7 @@ const Footer = () => (
         </Link>
       </FooterLinks>
       <Copyright>
-        <p>© Fast Selling Solutions, LLC</p>
+        <p>{`© ${new Date().getFullYear()} Fast Selling Solutions, LLC`}</p>
       </Copyright>
     </FooterContent>
   </FooterStyles>
