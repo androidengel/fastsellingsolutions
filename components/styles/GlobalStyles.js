@@ -120,7 +120,6 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .sub-heading p {
-    line-height: 1.7;
     margin: 0;
   }
 
