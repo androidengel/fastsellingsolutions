@@ -2,7 +2,14 @@ import styled from 'styled-components';
 import CardStyles from '../styles/CardStyles';
 
 const StepsSection = styled.section`
-  padding: 5rem 10rem 15rem;
+  padding: 0 10rem 15rem;
+  max-width: 140rem;
+  margin: auto;
+`;
+
+const StepsTitle = styled.div`
+    padding-bottom: 7rem;
+    text-align: center;
 `;
 
 const CardGrid = styled.div`
@@ -27,6 +34,11 @@ const StepCard = styled(CardStyles)`
   hr {
     border: 1px solid var(--orange);
   }
+  a {
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: bold;
+  }
 `;
 
 const CardIcon = styled.div`
@@ -46,6 +58,12 @@ const CardIcon = styled.div`
 
 const Steps = () => (
   <StepsSection>
+    <StepsTitle>
+      <h1 className="heading">Our services are free</h1>
+      <div className="sub-heading">
+        <p>Zero fees. Zero commissions.</p>
+      </div>
+    </StepsTitle>
     <CardGrid>
       <StepCard>
         <small>Step 1</small>
@@ -56,7 +74,13 @@ const Steps = () => (
           </svg>
         </CardIcon>
         <hr />
-        <p>Call/text us at 920-315-0080 or fill out our form at the top of this page.</p>
+        <p>
+          Call/text us at
+          {' '}
+          <a href="tel:920-315-0080">920-315-0080</a>
+          {' '}
+          or fill out our form at the top of this page.
+        </p>
       </StepCard>
       <StepCard>
         <small>Step 2</small>
@@ -67,7 +91,7 @@ const Steps = () => (
           </svg>
         </CardIcon>
         <hr />
-        <p>We&apos;ll discuss your situation with you to determine how we can help. We may setup time to view the property for a more detailed assessment.</p>
+        <p>We&apos;ll discuss your situation with you to determine how to best solve your problem. We may setup time to view the property for a more detailed assessment.</p>
       </StepCard>
       <StepCard>
         <small>Step 3</small>
@@ -81,7 +105,7 @@ const Steps = () => (
           </svg> */}
         </CardIcon>
         <hr />
-        <p>We&apos;ll make you a fair, all-cash offer.</p>
+        <p>We&apos;ll make you a fair, no-obligation offer. If you choose to accept, we&apos;ll work to close on your timeline.</p>
       </StepCard>
     </CardGrid>
   </StepsSection>
