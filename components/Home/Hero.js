@@ -11,6 +11,10 @@ const HeroStyles = styled.section`
   margin: 0 auto;
   padding: calc(var(--nav-height) + 4rem) 2rem;
   height: 80vh;
+  @media(max-width: 768px) {
+    padding: calc(var(--nav-height) + 4rem) 1rem;
+    display: block;
+  }
 `;
 
 const Split = styled.div`
@@ -26,12 +30,34 @@ const Split = styled.div`
   form {
     width: 60rem;
   }
+  @media(max-width: 768px) {
+    display: block;
+    margin: auto;
+    & > div {
+      width: 100%;
+      padding-bottom: 2rem;
+    }
+    h1 {
+      text-align: center;
+      font-size: 4.5rem;
+    }
+    form {
+      min-width:350px;
+      width: auto;
+      margin: auto;
+    }
+    p {
+      text-align: center;
+    }
+
+  }
 `;
 
 const Title = styled.div`
   display: flex;
   h2 {
     padding-right: 1rem;
+    text-align: left;
   }
 `;
 

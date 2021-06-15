@@ -5,18 +5,22 @@ const StepsSection = styled.section`
   padding: 0 10rem 15rem;
   max-width: 140rem;
   margin: auto;
+  @media (max-width: 768px) {
+    padding: 0 2rem 15rem;
+  }
 `;
 
 const StepsTitle = styled.div`
-    padding-bottom: 7rem;
+    padding-bottom: 6rem;
     text-align: center;
 `;
 
 const CardGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   grid-column-gap: 2rem;
   justify-items: center;
+  grid-row-gap: 6rem;
 `;
 
 const StepCard = styled(CardStyles)`
@@ -33,6 +37,7 @@ const StepCard = styled(CardStyles)`
   }
   hr {
     border: 1px solid var(--orange);
+    background-color: var(--orange);
   }
   a {
     text-decoration: none;

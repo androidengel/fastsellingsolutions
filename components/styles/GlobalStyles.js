@@ -98,6 +98,9 @@ const GlobalStyles = createGlobalStyle`
     /* min-height: 90vh; */
     margin: 0 auto;
     padding: calc(var(--nav-height) + 4rem) 2rem;
+    @media (max-width: 670px) {
+      padding: calc(var(--nav-height) + 4rem) 1rem;
+    }
   }
   
   .inner-section {
@@ -117,6 +120,9 @@ const GlobalStyles = createGlobalStyle`
 
   .heading {
     font-size: 4.6rem;
+    @media (max-width: 768px) {
+      font-size: 4rem;
+    }
   }
 
   .sub-heading p {
@@ -133,6 +139,12 @@ const GlobalStyles = createGlobalStyle`
   
   #fax {
     display: none;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      line-height: 1.2;
+    }
   }
 `;
 

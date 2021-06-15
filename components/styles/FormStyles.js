@@ -13,7 +13,7 @@ const FormStyles = styled.form`
     box-shadow: var(--bs);
   }
   h2 {
-    text-align: center;
+    text-align: left;
   }
   label {
     margin-bottom: 1rem;
