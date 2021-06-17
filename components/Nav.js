@@ -104,8 +104,8 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link href="/refer">
-            <a>Refer</a>
+          <Link href="/referrals">
+            <a>Referrals</a>
           </Link>
         </li>
         <li>
