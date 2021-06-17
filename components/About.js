@@ -9,7 +9,7 @@ const About = () => (
     <p>
       The majority of our careers have been spent working in the consumer affairs industry for fortune 500 companies. We have dedicated our professional lives
       to mastering customer care, which we believe sets us apart in the home buying business. Our goal is to connect with each seller on a personal level so we can
-      provide a custom solution that put them in a better situation.
+      provide a custom solution that puts them in a better situation.
     </p>
     <p>
       We&apos;d love to learn more about you and your situation. Contact us today for a no-pressure, down-to-earth conversation. There are no costs to work with us
