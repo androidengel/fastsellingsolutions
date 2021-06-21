@@ -137,6 +137,12 @@ const GlobalStyles = createGlobalStyle`
     min-height: 90vh;
   }
   
+  .phone { 
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: bold;
+  }
+
   #fax {
     display: none;
   }

@@ -39,11 +39,6 @@ const StepCard = styled(CardStyles)`
     border: 1px solid var(--orange);
     background-color: var(--orange);
   }
-  a {
-    text-decoration: none;
-    color: var(--orange);
-    font-weight: bold;
-  }
 `;
 
 const CardIcon = styled.div`
@@ -82,7 +77,7 @@ const Steps = () => (
         <p>
           Call/text us at
           {' '}
-          <a href="tel:920-315-0080">920-315-0080</a>
+          <a className="phone" href="tel:920-315-0080">920-315-0080</a>
           {' '}
           or fill out our form at the top of this page.
         </p>
