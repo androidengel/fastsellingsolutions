@@ -11,7 +11,7 @@ const StepsSection = styled.section`
 `;
 
 const StepsTitle = styled.div`
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
     text-align: center;
 `;
 

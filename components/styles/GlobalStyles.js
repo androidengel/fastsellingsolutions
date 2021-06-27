@@ -78,9 +78,10 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     color: var(--black);
     font-family: 'Poppins';
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     border: 1px solid var(--lighter-black);
     border-radius: 2px;
+    margin-bottom: 0.5rem;
     &:focus {
       outline: 0;
       border-color: var(--light-blue);
@@ -89,9 +90,6 @@ const GlobalStyles = createGlobalStyle`
       color: var(--lighter-black);
       background: var(--light-grey);
     }
-  }
-  textarea {
-    min-height: 20rem;
   }
   .inner-content {
     max-width: var(--max-width);
@@ -124,9 +122,14 @@ const GlobalStyles = createGlobalStyle`
       font-size: 4rem;
     }
   }
+  
+  .sub-heading {
+    margin-bottom: 4rem;
+  }
 
-  .sub-heading p {
-    margin: 0;
+  .sub-heading p{
+    margin: 0 auto;
+    max-width: 700px;
   }
 
   .centered {

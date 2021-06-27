@@ -11,6 +11,9 @@ const FormStyles = styled.form`
     padding: 4rem;
     background: white;
     box-shadow: var(--bs);
+    @media (max-width: 600px) {
+      padding: 2rem;
+    }
   }
   h2 {
     text-align: left;
@@ -29,6 +32,9 @@ const FormStyles = styled.form`
       cursor: pointer;
       color: var(--light-blue-hover);
     }
+  }
+  textarea {
+    height: 150px;
   }
   button {
     margin-top: 2rem;
