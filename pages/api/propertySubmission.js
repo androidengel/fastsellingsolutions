@@ -45,5 +45,5 @@ export default async function handler(req, res) {
       </address>
     `,
   });
-  res.status(200).json(info);
+  res.status(200).json({ success: true });
 }
