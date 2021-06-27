@@ -98,8 +98,8 @@ const GlobalStyles = createGlobalStyle`
     /* min-height: 90vh; */
     margin: 0 auto;
     padding: calc(var(--nav-height) + 4rem) 2rem;
-    @media (max-width: 670px) {
-      padding: calc(var(--nav-height) + 4rem) 1rem;
+    @media (max-width: 768px) {
+      padding: calc(var(--nav-height) + 11rem) 1rem;
     }
   }
   

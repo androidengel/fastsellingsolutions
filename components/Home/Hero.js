@@ -12,7 +12,7 @@ const HeroStyles = styled.section`
   padding: calc(var(--nav-height) + 4rem) 2rem;
   height: 80vh;
   @media(max-width: 768px) {
-    padding: calc(var(--nav-height) + 4rem) 1rem;
+    padding: 4rem 1rem;
     display: block;
   }
 `;
@@ -68,8 +68,8 @@ const Hero = () => (
         <div>
           <h1>A simplified house-selling experience.</h1>
           <div className="sub-heading">
-            <p>We buy problem properties without hassle.</p>
-            <p>No cleanup, no repairs.</p>
+            <p>We&apos;re professional home buyers who specialize in buying problem properties.</p>
+            {/* <p>No cleanup, no repairs.</p> */}
           </div>
         </div>
         <PropertyForm>

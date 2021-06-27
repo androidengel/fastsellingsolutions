@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from 'next/link';
 
 const WhatWeDoStyles = styled.div`
   background-image: url('/background-whatwedo.svg');
@@ -8,7 +9,7 @@ const WhatWeDoStyles = styled.div`
 
 const WhatWeDo = () => (
   <WhatWeDoStyles>
-    <div className="inner-section">
+    <div className="inner-section centered">
       <section>
         <h1 className="heading">Selling your house made easy</h1>
         <p>
@@ -67,7 +68,11 @@ const WhatWeDo = () => (
           and get you into a better position.
         </p>
         <p>
-          Contact us today. We’d love to learn about your situation and how we can help.
+          <Link href="/contact">
+            <a>Contact us</a>
+          </Link>
+          {' '}
+          today. We’d love to learn about your situation and how we can help.
         </p>
       </section>
     </div>
