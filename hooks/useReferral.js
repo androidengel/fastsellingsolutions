@@ -25,7 +25,7 @@ const useReferral = (values) => {
       setError(text.message);
     } else {
       // success!
-      router.push('/success?type=referral');
+      router.push('/success?type=refsub');
     }
   };
 
