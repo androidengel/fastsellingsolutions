@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ContactForm from './ContactForm';
+import PropertyForm from './PropertyForm';
 
 const ContactStyles = styled.div`
   form {
@@ -23,7 +23,7 @@ const Contact = () => (
           </p>
         </div>
       </div>
-      <ContactForm />
+      <PropertyForm />
     </ContactStyles>
   </div>
 );
