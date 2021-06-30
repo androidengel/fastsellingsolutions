@@ -23,7 +23,7 @@ const Success = () => {
   // ctu type
   const { type } = router.query;
   let Message = '';
-  if (type === 'propsub') Message = PropertyMessage;
+  if (type === 'propsub' || type === 'quesub') Message = PropertyMessage;
   if (type === 'refsub') Message = ReferralMessage;
 
   useEffect(() => {
