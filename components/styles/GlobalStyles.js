@@ -37,8 +37,11 @@ const GlobalStyles = createGlobalStyle`
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
   }
+  h1 {
+    font-size: 3rem;
+  }
   p {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   button, .button {
     border: 0;
