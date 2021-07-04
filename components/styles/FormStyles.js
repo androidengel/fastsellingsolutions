@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const FormStyles = styled.form`
-  max-width: 600px;
+  max-width: 500px;
   min-width: 30rem;
   font-size: 1.5rem;
   padding-bottom: 2rem;
@@ -37,8 +37,9 @@ const FormStyles = styled.form`
     height: 150px;
   }
   button {
-    margin-top: 2rem;
+    margin-top: 0rem;
     width: 100%;
+    padding: 1.6rem;
   }
   .form-row {
     display: flex;

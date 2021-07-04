@@ -46,7 +46,7 @@ const AddressInput = ({ inputController }) => {
           <div>
             <input
               {...getInputProps({
-                placeholder: 'Search Property ...',
+                placeholder: 'Property address*',
                 className: 'location-search-input',
               })}
             />
