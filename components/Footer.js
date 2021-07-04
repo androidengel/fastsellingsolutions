@@ -50,6 +50,9 @@ const Footer = () => (
         <Link href="/faq">
           <a>FAQ</a>
         </Link>
+        <Link href="/questions">
+          <a>Got a question?</a>
+        </Link>
       </FooterLinks>
       <Copyright>
         <p>{`© ${new Date().getFullYear()} Fast Selling Solutions, LLC`}</p>
