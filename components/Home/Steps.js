@@ -59,7 +59,7 @@ const CardIcon = styled.div`
 const Steps = () => (
   <StepsSection>
     <StepsTitle>
-      <h1 className="heading">Our services are free</h1>
+      <h1 className="heading">Our services are free.</h1>
       <div className="sub-heading">
         <p>Zero fees. Zero commissions.</p>
       </div>

@@ -11,7 +11,7 @@ const WhatWeDo = () => (
   <WhatWeDoStyles>
     <div className="inner-section centered">
       <section>
-        <h1 className="heading">Selling your house made easy</h1>
+        <h1 className="heading">Selling your house made easy.</h1>
         <p>
           We at Fast Selling Solutions dedicate ourselves to taking
           the burden off of your shoulders. Understanding that selling
@@ -37,7 +37,7 @@ const WhatWeDo = () => (
         </p>
       </section>
       <section>
-        <h1>Transparency, compassion, and discretion</h1>
+        <h1>Transparency, compassion, and discretion.</h1>
         <p>
           No one is immune to hardship. We understand that the situation you’re
           going through may be stressful, tragic, or even embarrassing, so know

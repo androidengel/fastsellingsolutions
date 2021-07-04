@@ -17,7 +17,7 @@ const FinalCTAStyles = styled.div`
 const FinalCTA = () => (
   <FinalCTAStyles>
     <div className="inner-section">
-      <h1 className="heading">No strings attached</h1>
+      <h1 className="heading">No strings attached.</h1>
       <div className="sub-heading">
         <p>Contact us today for a fair cash offer.</p>
         <p>There is no obligation to sell – that is 100% up to you.</p>
