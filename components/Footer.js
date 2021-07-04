@@ -44,8 +44,8 @@ const Footer = () => (
         <Link href="/about">
           <a>About</a>
         </Link>
-        <Link href="/refer">
-          <a>Refer</a>
+        <Link href="/referrals">
+          <a>Referrals</a>
         </Link>
         <Link href="/faq">
           <a>FAQ</a>
