@@ -13,6 +13,7 @@ const ReferralStyles = styled.div`
 `;
 
 const SelectOptions = styled.div`
+  margin-bottom: 2rem;
   & div {
     display: flex;
     width: 100%;
@@ -74,7 +75,6 @@ const ReferralForm = (props) => {
               </div>
             </SelectOptions>
           </label>
-
           <div>{error ? <p>{`Error: ${error}`}</p> : ''}</div>
           <button type="submit" disabled={loading}>{(loading) ? 'SUBMITTING ...' : 'SUBMIT'}</button>
         </fieldset>

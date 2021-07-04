@@ -29,7 +29,7 @@ const Referrals = () => (
       <LeftSide>
         <h1>Referrals</h1>
         <div className="sub-heading">
-          <p>Do you know someone with property problems or who needs to sell quickly? Fill out the form and we&apos;ll take it from there!</p>
+          <p>Do you know someone with property problems or who needs to sell quickly? Fill out this form and we&apos;ll take it from there!</p>
         </div>
       </LeftSide>
       <RightSide>
