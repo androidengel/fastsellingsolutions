@@ -27,6 +27,10 @@ const Split = styled.div`
     line-height: 1.15;
     padding-bottom: 1rem;
   }
+  p {
+    color: var(--black);
+  }
+  
   form {
     width: 60rem;
   }
@@ -55,6 +59,7 @@ const Split = styled.div`
 
 const Title = styled.div`
   display: flex;
+  padding-bottom: 1.5rem;
   h2 {
     padding-right: 1rem;
     text-align: left;

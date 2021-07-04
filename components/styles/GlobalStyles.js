@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
     --orange: #F3880A;
     --black: #393939;
     --red: #f04646;
+    --light-black: #7d7d7d;
     --lighter-black: #949494;
     --light-grey: #ededed;
     --max-width: 1000px;
@@ -45,17 +46,16 @@ const GlobalStyles = createGlobalStyle`
   }
   button, .button {
     border: 0;
-    font-size: 2rem;
+    font-size: 1.8rem;
     background: var(--light-blue);
     color: white;
-    padding: .6rem 2.5rem;
+    padding: 1.6rem;
     text-decoration: none;
     font-family: 'Poppins';
     font-weight: normal;
-    letter-spacing: .75px;
+    letter-spacing: .45px;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
-    max-height: 4rem;
+    border-radius: 3px;
     &:hover:enabled {
       cursor: pointer;
       background: var(--light-blue-hover);
@@ -81,10 +81,11 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     color: var(--black);
     font-family: 'Poppins';
-    font-size: 1.6rem;
-    border: 1px solid var(--lighter-black);
-    border-radius: 2px;
-    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    border: var(--card-border);
+    border-radius: 3px;
+    margin-bottom: 1.7rem;
+    padding: 1.5rem;
     &:focus {
       outline: 0;
       border-color: var(--light-blue);
@@ -98,10 +99,14 @@ const GlobalStyles = createGlobalStyle`
     max-width: var(--max-width);
     /* min-height: 90vh; */
     margin: 0 auto;
-    padding: calc(var(--nav-height) + 4rem) 2rem;
+    padding: calc(var(--nav-height) + 6rem) 2rem;
     @media (max-width: 768px) {
-      padding: calc(var(--nav-height) + 11rem) 1rem;
+      padding: calc(var(--nav-height) + 13rem) 1rem;
     }
+  }
+
+  .wider {
+    max-width: 1100px;
   }
   
   .inner-section {
@@ -133,6 +138,8 @@ const GlobalStyles = createGlobalStyle`
   .sub-heading p{
     margin: 0 auto;
     max-width: 700px;
+    color: #7d7d7d;
+    line-height: 1.8;
   }
 
   .centered {
