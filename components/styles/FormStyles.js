@@ -2,9 +2,13 @@ import styled from 'styled-components';
 
 const FormStyles = styled.form`
   max-width: 500px;
-  min-width: 30rem;
+  min-width: 50rem;
   font-size: 1.5rem;
   padding-bottom: 2rem;
+  @media (max-width: 600px) {
+    max-width:40rem;
+    min-width: 35rem;
+  }
   fieldset {
     border: var(--card-border);
     border-radius: 2px;
