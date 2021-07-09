@@ -11,11 +11,11 @@ const faq = () => (
   <FaqStyles>
     <div className="inner-content">
       <h1>Frequently Asked Questions</h1>
-      <h2>Why should I use Fast Selling Solutions to buy my home?</h2>
+      <h2>Why should I use Fast Selling Solutions?</h2>
       <p>
         At the heart of our business, we are problem solvers. Our clients are typically going through a difficult situation and their house has become a burden.
-        Not only do we buy problem properties as-is, but we focus on how we can put you in a better situation. We will tailor our approach to your unique problem so
-        you can leave with the right solution for you and a weight lifted off your shoulders.
+        Not only do we buy problem properties as-is, but we focus on putting you in a better situation. We will tailor our approach to your unique problem so
+        you can leave with the right solution and a weight lifted off your shoulders.
       </p>
       <p>
         Our services may not be for everyone. Depending on your situation, you may be better off listing your house with a real estate agent. However, that is not
@@ -50,9 +50,65 @@ const faq = () => (
         services aren&apos;t right for you, we&apos;ll gladly recommend other businesses that may be able to help.
       </p>
       <h2>How are you different than listing with a real estate agent?</h2>
-      <p>Answer</p>
+      <p>
+        A real estate agent&apos;s job is to find a buyer by listing your house on the MLS. They find buyers by planting
+        a For Sale sign in your yard, marketing your property to the public, and scheduling multiple showings to prospective
+        buyers. This process can take weeks or months before closing, and it will cost you approximatly 6% of the home&apos;s purchase
+        price in commissions.
+      </p>
+      <p>
+        When working with Fast Selling Solutions, we are the home buyer. No sign in the yard, no listings, no waiting
+        to find a buyer, and no commissions/fees. We close on your schedule, and can typically close within 30 days. Our services are designed to
+        take the burden off your shoulders as effortlessly as possibly so you can get on with your life. There is no need to clean out the
+        house or make any repairs. We handle all of that.
+      </p>
       <h2>What is a &quot;professional home buyer?&quot;</h2>
-      <p>Answer</p>
+      <p>
+        Fast Selling Solutions is a professional home buying company. We buy houses as-is so you don&apos;t need to clean out the property or make
+        any repairs. Our offers are all-cash so we can close quickly, often within 30 days. There are no fees or commissions to work with us and no
+        obligation to accept our offer.
+      </p>
+      <p>
+        Beyond buying your house, we also make sure you are in a better position after the sale. That means ensuring you have a
+        place to live or you have what you need to move forward with your life. Making every transaction a win-win for all parties is a requirement
+        for our business.
+      </p>
+      <h2>What is the process to work with you?</h2>
+      <p>
+        You can expect the following steps when working with us to buy your house:
+        <ol>
+          <li>
+            The process begins by you calling/texting us at
+            {' '}
+            <a className="phone" href="tel:920-315-0080">920-315-0080</a>
+            {' '}
+            or submitting your
+            property address through our
+            {' '}
+            <Link href="/contact">
+              <a>contact us</a>
+            </Link>
+            {' '}
+            form.
+          </li>
+          <li>
+            We will have a conversation with you to gather more information about your property and your situation. The property information we&apos;re
+            looking for generally includes size, type, condition, and current amount owed, but we are also seeking information about how to best solve
+            your situational problems.
+          </li>
+          <li>
+            If both you and we feel comfortable moving forward, we will schedule an appointment to assess the property. Once we&apos;ve had a look, we
+            will make you an offer. There is no obligation to accept our offer and no cost to you for the appointment.
+          </li>
+          <li>
+            If you decide to accept our offer, we will review and sign the Wisconsin State approved Offer to Purchase contract. Our team will handle the
+            rest of process until closing day. We stay in touch with you frequently to ensure you know what&apos;s going on and are comfortable.
+          </li>
+          <li>
+            On closing day, we will meet at the title company to sign the final paperwork and transfer the cash to your bank account.
+          </li>
+        </ol>
+      </p>
       <h2>What are my obligations after I contact you?</h2>
       <p>Answer</p>
       <h2>Are there any fees/commissions to work with you?</h2>
