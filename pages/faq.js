@@ -102,7 +102,7 @@ const faq = () => (
           </li>
           <li>
             If you decide to accept our offer, we will review and sign the Wisconsin State approved Offer to Purchase contract. Our team will handle the
-            rest of process until closing day. We stay in touch with you frequently to ensure you know what&apos;s going on and are comfortable.
+            rest of process until closing day. We stay in touch with you frequently to ensure you know what&apos;s going on and are comfortable every step of the way.
           </li>
           <li>
             On closing day, we will meet at the title company to sign the final paperwork and transfer the cash to your bank account.
@@ -110,15 +110,37 @@ const faq = () => (
         </ol>
       </p>
       <h2>What are my obligations after I contact you?</h2>
-      <p>Answer</p>
+      <p>
+        There are zero obligations to you. Once you submit your info, we&apos;ll follow up with you to discuss your property and may even schedule a visit. After a
+        quick assessment, we&apos;ll make you a fair, all-cash offer. Your decision to accept our offer is 100% up to you, so it&apos;s good for you to hear at least what we&apos;re
+        offering!
+      </p>
       <h2>Are there any fees/commissions to work with you?</h2>
-      <p>Answer</p>
+      <p>
+        There are zero fees and zero commissions to work with us! Unlike listing your house with a real estate agent (where a percentage of the sale is paid to them),
+        we are buying your house directly. The benefits to you are that we can close quickly, we handle all cleanup and repairs, and you avoid the fees/commissions
+        associated with typical real estate agent transactions.
+      </p>
       <h2>Will you be listing my house on the MLS?</h2>
-      <p>Answer</p>
+      <p>
+        No, we will not be listing your house on MLS. Instead, we would be buying your house directly. This approach gives you the speed and convenience of an all-cash
+        offer so you can avoid open houses and long, drawn-out waiting periods before closing.
+      </p>
       <h2>Will you offer me a fair price for my home?</h2>
-      <p>Answer</p>
+      <p>
+        The properties we typically buy are below market value. We are looking for a fair discount so we can put in the necessary updates or repairs before reselling
+        it for profit to another homeowner.
+      </p>
+      <p>
+        However, many sellers we work with aren&apos;t expecting a large return on their property, but rather appreciate the benefits of an all-cash offer. An all-cash
+        offer allows us to close quickly (no waiting on financing), frees you from paying fees/commissions, and requires no time or effort on you to clean up or make repairs.
+        If you see value in selling your house fast, we&apos;d love to work with you to find a win-win solution!
+      </p>
       <h2>What kinds of houses do you buy?</h2>
-      <p>Answer</p>
+      <p>
+        We buy many types of properties including single family homes, multi-family (duplex, triplex, 4-plex), mobile homes, commercial buildings and even small apartments.
+        Furthermore, we buy house in any condition and we buy as-is, so you don&apos;t need to make any updates, repairs, or even clean up. We handle all of that.
+      </p>
     </div>
   </FaqStyles>
 );
