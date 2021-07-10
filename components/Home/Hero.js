@@ -9,8 +9,8 @@ const HeroStyles = styled.section`
   background-size: cover;
   /* background-attachment: fixed; */
   margin: 0 auto;
-  padding: calc(var(--nav-height) + 4rem) 2rem;
-  height: 80vh;
+  padding: 0 2rem;
+  min-height: 80vh;
   @media(max-width: 768px) {
     padding: 4rem 1rem;
     display: block;
@@ -73,14 +73,18 @@ const Hero = () => (
         <div>
           <h1>A simplified house-selling experience.</h1>
           <div className="sub-heading">
-            <p>We&apos;re professional home buyers who specialize in buying problem properties.</p>
-            {/* <p>No cleanup, no repairs.</p> */}
+            <p>
+              We&apos;re professional home buyers who specialize in making your house-selling process fast and easy.
+            </p>
+            <p>
+              <em>No cleanup. No repairs. No fees.</em>
+            </p>
           </div>
         </div>
         <PropertyForm>
           <Title>
             <h2>Start here for an all-cash offer!</h2>
-            <Image src="/down-arrow.svg" height={50} width={50} />
+            <Image src="/down-arrow.svg" alt="arrow pointing to form" height={50} width={50} />
           </Title>
         </PropertyForm>
       </Split>
