@@ -16,6 +16,7 @@ const AddressInputStyles = styled.div`
     position: absolute;
     z-index: 1000;
     border-radius: 0 0 2px 2px;
+    margin-top: -1.7rem;
     & span {
       padding: 0 1rem;
     }
@@ -48,6 +49,7 @@ const AddressInput = ({ inputController }) => {
               {...getInputProps({
                 placeholder: 'Property address*',
                 className: 'location-search-input',
+                autoComplete: 'nope',
               })}
             />
             <div className="autocomplete-dropdown-container">
