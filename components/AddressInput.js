@@ -23,7 +23,7 @@ const AddressInputStyles = styled.div`
 `;
 
 const AddressInput = ({ inputController }) => {
-  const [address, setAddress] = useState();
+  const [address, setAddress] = useState('');
   const { inputs, setInputs } = inputController;
 
   const handleAddressChange = (addr) => {
