@@ -47,12 +47,12 @@ const Faq = () => (
       <p>
         A real estate agent&apos;s job is to find a buyer by listing your house on the MLS. They find buyers by planting
         a For Sale sign in your yard, marketing your property to the public, and scheduling multiple showings to prospective
-        buyers. This process can take weeks or months before closing, and it will cost you approximatly 6% of the home&apos;s purchase
+        buyers. This process can take weeks or months before closing, and it will cost you approximately 6% of the home&apos;s purchase
         price in commissions.
       </p>
       <p>
         When working with Fast Selling Solutions, we are the home buyer. No sign in the yard, no listings, no waiting
-        to find a buyer, and no commissions/fees. We close on your schedule, and can typically close within 30 days. Our services are designed to
+        to find a buyer, and no commissions/fees. We close on your schedule, and we can typically close within 30 days. Our services are designed to
         take the burden off your shoulders as effortlessly as possibly so you can get on with your life. There is no need to clean out the
         house or make any repairs. We handle all of that.
       </p>
@@ -65,7 +65,7 @@ const Faq = () => (
       </p>
       <p>
         Beyond buying your house, we also make sure you are in a better position after the sale. That means ensuring you have a
-        place to live or you have what you need to move forward with your life. Making every transaction a win-win for all parties is a requirement
+        place to live, or you have what you need to move forward with your life. Making every transaction a win-win for all parties is a requirement
         for our business.
       </p>
     </FaqItem>
@@ -139,8 +139,8 @@ const Faq = () => (
     </FaqItem>
     <FaqItem title="What kinds of houses do you buy?">
       <p>
-        We buy many types of properties including single family homes, multi-family (duplex, triplex, 4-plex), mobile homes, commercial buildings and even small apartments.
-        Furthermore, we buy house in any condition and we buy as-is, so you don&apos;t need to make any updates, repairs, or even clean up. We handle all of that.
+        We buy many types of properties including single family homes, multi-family (duplex, triplex, 4-plex), mobile homes, commercial buildings, and even small apartments.
+        Furthermore, we buy house in any condition, and we buy as-is, so you don&apos;t need to make any updates, repairs, or even clean up. We handle all of that.
       </p>
     </FaqItem>
   </div>

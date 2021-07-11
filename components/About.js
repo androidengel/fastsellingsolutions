@@ -6,8 +6,8 @@ const About = () => (
     <h1>About us</h1>
     <p>
       Fast Selling Solutions is a professional home buying business located in Oshkosh, WI. We are a husband and wife team (Andrew and Sarah) who specialize
-      in solving property problems across the Fox Cities. We focus our efforts on buying distressed properites to renovate for sale or rent, which allows
-      us solve difficult problems for sellers, bring new life into our communities&apos; homes, and provide updated and safe housing for new buyers or renters.
+      in solving property problems across the Fox Cities. We focus our efforts on buying distressed properties to renovate for sale or rent, which allows
+      us to solve difficult problems for sellers, bring new life into our communities&apos; homes, and provide updated and safe housing for new buyers or renters.
     </p>
     <p>
       The majority of our careers have been spent working in the consumer affairs industry for fortune 500 companies. We have dedicated our professional lives
