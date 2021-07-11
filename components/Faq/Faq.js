@@ -109,8 +109,8 @@ const Faq = () => (
     <FaqItem title="What are my obligations after I contact you?">
       <p>
         There are zero obligations to you. Once you submit your info, we&apos;ll follow up with you to discuss your property and may even schedule a visit. After a
-        quick assessment, we&apos;ll make you a fair, all-cash offer. Your decision to accept our offer is 100% up to you, so it&apos;s good for you to hear at least what we&apos;re
-        offering!
+        quick assessment, we&apos;ll make you a fair, all-cash offer. Your decision to accept our offer is 100% up to you, but it&apos;s good for you to at least hear
+        what we&apos;re offering!
       </p>
     </FaqItem>
     <FaqItem title="Are there any fees/commissions to work with you?">
