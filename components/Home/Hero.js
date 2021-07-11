@@ -9,8 +9,11 @@ const HeroStyles = styled.section`
   background-size: cover;
   /* background-attachment: fixed; */
   margin: 0 auto;
-  padding: 0 2rem;
   min-height: 80vh;
+  padding: 4rem 2rem;
+  @media(max-width: 1600px) {
+    padding: 0 2rem;
+  }
   @media(max-width: 768px) {
     padding: 4rem 1rem;
     display: block;
@@ -77,7 +80,7 @@ const Hero = () => (
               We&apos;re professional home buyers who specialize in making your house-selling process fast and easy.
             </p>
             <p>
-              <em>No cleanup. No repairs. No fees.</em>
+              <strong><em>No cleanup. No repairs. No fees.</em></strong>
             </p>
           </div>
         </div>
