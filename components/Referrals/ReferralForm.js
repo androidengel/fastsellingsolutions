@@ -49,7 +49,7 @@ const ReferralForm = (props) => {
         <fieldset>
           {props.children}
           <h3 className="centered">Property Information</h3>
-          <input type="text" name="fax" id="fax" value={inputs.fax} onChange={handleChange} />
+          <input type="text" name="fax" className="fax" value={inputs.fax} onChange={handleChange} />
 
           <input type="text" name="ownerName" id="ownerName" value={inputs.ownerName} onChange={handleChange} placeholder="Owner's name" />
           <AddressInput inputController={{ inputs, setInputs }} />

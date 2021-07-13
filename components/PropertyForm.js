@@ -23,14 +23,13 @@ const PropertyForm = (props) => {
         <input
           type="text"
           name="fax"
-          id="fax"
+          className="fax"
           value={inputs.fax}
           onChange={handleChange}
         />
         <input
           type="text"
           name="name"
-          id="name"
           value={inputs.name}
           placeholder="Name*"
           onChange={handleChange}
@@ -40,7 +39,6 @@ const PropertyForm = (props) => {
         <input
           type="email"
           name="email"
-          id="email"
           value={inputs.email}
           onChange={handleChange}
           placeholder="Email*"
@@ -49,7 +47,6 @@ const PropertyForm = (props) => {
         <input
           type="phone"
           name="phone"
-          id="phone"
           value={inputs.phone}
           onChange={handleChange}
           placeholder="Phone"

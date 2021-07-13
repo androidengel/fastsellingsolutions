@@ -27,7 +27,7 @@ const QuestionsForm = () => {
         <input
           type="text"
           name="fax"
-          id="fax"
+          className="fax"
           value={inputs.fax}
           onChange={handleChange}
         />

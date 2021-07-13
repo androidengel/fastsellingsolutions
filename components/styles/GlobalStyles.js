@@ -156,7 +156,7 @@ const GlobalStyles = createGlobalStyle`
     font-weight: bold;
   }
 
-  #fax {
+  .fax {
     display: none;
   }
 
