@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
     --black: #393939;
     --red: #f04646;
     --light-black: #7d7d7d;
-    --lighter-black: #949494;
+    --lighter-black: #6b6b6b;
     --light-grey: #ededed;
     --max-width: 1000px;
     --nav-height: 100px;
