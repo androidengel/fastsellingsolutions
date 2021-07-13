@@ -24,6 +24,7 @@ const Split = styled.div`
   display: flex;
   & > div {
     width: 50%;
+    margin: auto 0;
   }
   h1 {
     font-size: 6rem;
