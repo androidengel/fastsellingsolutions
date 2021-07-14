@@ -101,7 +101,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0 auto;
     padding: calc(var(--nav-height) + 6rem) 2rem;
     @media (max-width: 768px) {
-      padding: calc(var(--nav-height) + 13rem) 1rem;
+      padding: calc(var(--nav-height) + 13rem) 2rem;
     }
   }
 
