@@ -6,7 +6,6 @@ const Meta = () => (
     <meta charSet="utf-8" />
     <link rel="shortcut icon" href="/favicon.png" crossOrigin="anonymous" />
     <script src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_MAPS_KEY}&libraries=places`} />
-    <title>Fast Selling Solutions | Selling your house made quick and easy</title>
   </Head>
 );
 

@@ -34,7 +34,7 @@ const CardStyles = styled.div`
   }
   input[type="checkbox"] {
   }
-  label, p {
+  label, p, li {
     font-size: 1.8rem;
   }
 `;

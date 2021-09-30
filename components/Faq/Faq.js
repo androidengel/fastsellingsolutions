@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 import Link from 'next/link';
 import FaqItem from './FaqItem';
 
@@ -13,17 +12,17 @@ const Faq = () => (
       <p>
         Our services may not be for everyone. Depending on your situation, you may be better off listing your house with a real estate agent. However, that is not
         always the best option. Our professional home buying services are an excellent solution if you are going through any of the following situations:
-        <ul>
-          <li>You need to sell your house quickly.</li>
-          <li>Your house needs significant repairs.</li>
-          <li>Your house needs a major cleanout.</li>
-          <li>You are behind on mortgage payments.</li>
-          <li>You are facing foreclosure.</li>
-          <li>You inherited a house that you do not want.</li>
-          <li>You owe more than the house is worth.</li>
-          <li>You own one or more rental properties and no longer want to be a landlord.</li>
-        </ul>
       </p>
+      <ul>
+        <li>You need to sell your house quickly.</li>
+        <li>Your house needs significant repairs.</li>
+        <li>Your house needs a major cleanout.</li>
+        <li>You are behind on mortgage payments.</li>
+        <li>You are facing foreclosure.</li>
+        <li>You inherited a house that you do not want.</li>
+        <li>You owe more than the house is worth.</li>
+        <li>You own one or more rental properties and no longer want to be a landlord.</li>
+      </ul>
       <p>
         If you can relate to any of these situations,
         {' '}
@@ -72,39 +71,39 @@ const Faq = () => (
     <FaqItem title="What is the process to work with you?">
       <p>
         You can expect the following steps when working with us to buy your house:
-        <ol>
-          <li>
-            The process begins by you calling/texting us at
-            {' '}
-            <a className="phone" href="tel:920-315-0080">920-315-0080</a>
-            {' '}
-            or submitting your
-            property address through our
-            {' '}
-            <Link href="/contact">
-              <a>contact us</a>
-            </Link>
-            {' '}
-            form.
-          </li>
-          <li>
-            We will have a conversation with you to gather more information about your property and your situation. The property information we&apos;re
-            looking for generally includes size, type, condition, and current amount owed, but we are also seeking information about how to best solve
-            your situational problems.
-          </li>
-          <li>
-            If both you and we feel comfortable moving forward, we will schedule an appointment to assess the property. Once we&apos;ve had a look, we
-            will make you an offer. There is no obligation to accept our offer and no cost to you for the appointment.
-          </li>
-          <li>
-            If you decide to accept our offer, we will review and sign the Wisconsin State approved Offer to Purchase contract. Our team will handle the
-            rest of process until closing day. We stay in touch with you frequently to ensure you know what&apos;s going on and are comfortable every step of the way.
-          </li>
-          <li>
-            On closing day, we will meet at the title company to sign the final paperwork and transfer the cash to your bank account.
-          </li>
-        </ol>
       </p>
+      <ol>
+        <li>
+          The process begins by you calling/texting us at
+          {' '}
+          <a className="phone" href="tel:920-315-0080">920-315-0080</a>
+          {' '}
+          or submitting your
+          property address through our
+          {' '}
+          <Link href="/contact">
+            <a>contact us</a>
+          </Link>
+          {' '}
+          form.
+        </li>
+        <li>
+          We will have a conversation with you to gather more information about your property and your situation. The property information we&apos;re
+          looking for generally includes size, type, condition, and current amount owed, but we are also seeking information about how to best solve
+          your situational problems.
+        </li>
+        <li>
+          If both you and we feel comfortable moving forward, we will schedule an appointment to assess the property. Once we&apos;ve had a look, we
+          will make you an offer. There is no obligation to accept our offer and no cost to you for the appointment.
+        </li>
+        <li>
+          If you decide to accept our offer, we will review and sign the Wisconsin State approved Offer to Purchase contract. Our team will handle the
+          rest of process until closing day. We stay in touch with you frequently to ensure you know what&apos;s going on and are comfortable every step of the way.
+        </li>
+        <li>
+          On closing day, we will meet at the title company to sign the final paperwork and transfer the cash to your bank account.
+        </li>
+      </ol>
     </FaqItem>
     <FaqItem title="What are my obligations after I contact you?">
       <p>
