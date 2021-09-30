@@ -12,6 +12,7 @@ const faq = () => (
   <FaqStyles>
     <Head>
       <meta name="description" content="Read our FAQs to learn more about how we can buy your house fast in Wisconsin." />
+      <title>Fast Selling Solutions | FAQ</title>
     </Head>
     <main>
       <div className="inner-content">

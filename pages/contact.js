@@ -6,6 +6,7 @@ export default function contact() {
     <div>
       <Head>
         <meta name="description" content="We'd love to learn more about your situation. Contact our professional home buying team to get a no-obligation offer on your house." />
+        <title>Fast Selling Solutions | Contact Us</title>
       </Head>
       <main>
         <Contact />

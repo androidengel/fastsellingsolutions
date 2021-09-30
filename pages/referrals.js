@@ -6,6 +6,7 @@ export default function referrals() {
     <div>
       <Head>
         <meta name="description" content="Do you know someone who needs to sell their house fast? Fill out our referral form and we'll take it from there." />
+        <title>Fast Selling Solutions | Referral</title>
       </Head>
       <main>
         <Referrals />
