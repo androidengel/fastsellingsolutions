@@ -76,7 +76,7 @@ const Faq = () => (
         <li>
           The process begins by you calling/texting us at
           {' '}
-          <a className="phone" href="tel:920-315-0080">920-315-0080</a>
+          <a className="phone" href="tel:920-298-1170">920-298-1170</a>
           {' '}
           or submitting your
           property address through our

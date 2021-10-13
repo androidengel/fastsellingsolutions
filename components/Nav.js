@@ -95,7 +95,7 @@ const Nav = () => {
       </div>
       <div className="phone-number">
         <p>Call or text!</p>
-        <a className="phone-number" href="tel:920-315-0080">920-315-0080</a>
+        <a className="phone-number" href="tel:920-298-1170">920-298-1170</a>
       </div>
       <NavLinks>
         <li>
