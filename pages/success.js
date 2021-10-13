@@ -6,6 +6,7 @@ export default function success() {
     <div>
       <Head>
         <title>Fast Selling Solutions | Success</title>
+        <meta name="robots" content="noindex,nofollow" />
       </Head>
       <main>
         <Success />
