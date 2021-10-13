@@ -5,13 +5,16 @@ const WhatWeDoStyles = styled.div`
   background-image: url('/background-whatwedo.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  h3 {
+    font-size: 3rem;
+  }
 `;
 
 const WhatWeDo = () => (
   <WhatWeDoStyles>
     <div className="inner-section centered">
       <section>
-        <h1 className="heading">Selling your house made easy.</h1>
+        <h2 className="heading">Selling your house made easy.</h2>
         <p>
           We at Fast Selling Solutions dedicate ourselves to taking
           the burden off of your shoulders. Understanding that selling
@@ -22,7 +25,7 @@ const WhatWeDo = () => (
         </p>
       </section>
       <section>
-        <h1>Is your house causing you stress?</h1>
+        <h3>Is your house causing you stress?</h3>
         <p>
           Are you going through foreclosure? Did you inherit a property?
           Are you behind on payments? Are you underwater on your mortgage?
@@ -37,7 +40,7 @@ const WhatWeDo = () => (
         </p>
       </section>
       <section>
-        <h1>Transparency, compassion, and discretion.</h1>
+        <h3>Transparency, compassion, and discretion.</h3>
         <p>
           No one is immune to hardship. We understand that the situation you’re
           going through may be stressful, tragic, or even embarrassing, so know
@@ -48,7 +51,7 @@ const WhatWeDo = () => (
         </p>
       </section>
       <section>
-        <h1>We buy houses in Wisconsin!</h1>
+        <h3>We buy houses in Wisconsin!</h3>
         <p>
           There are several ways to sell your house, but there are drawbacks to
           the traditional method of using a real estate agent. Selling through
