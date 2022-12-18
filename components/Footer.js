@@ -25,12 +25,15 @@ const FooterLinks = styled.div`
 }
 `;
 
+const BbbSeal = styled.div`
+  padding: 1.2rem 0 0 0;
+`;
+
 const Copyright = styled.div`
   & p {
     text-align: center;
     font-size: 1.2rem;
     margin: 0;
-    padding: 1.2rem 0 0 0;
   }
 `;
 
@@ -54,6 +57,18 @@ const Footer = () => (
           <a>Got a question?</a>
         </Link>
       </FooterLinks>
+      <BbbSeal className="centered">
+        <Link href="https://www.bbb.org/us/wi/oshkosh/profile/real-estate-consultant/fast-selling-solutions-0694-1000053709/#sealclick">
+          <a>
+            <Image
+              src="https://seal-wisconsin.bbb.org/seals/blue-seal-200-42-bbb-1000053709.png"
+              alt="better business bureau"
+              width={200}
+              height={42}
+            />
+          </a>
+        </Link>
+      </BbbSeal>
       <Copyright>
         <p>{`© ${new Date().getFullYear()} Fast Selling Solutions, LLC`}</p>
       </Copyright>
