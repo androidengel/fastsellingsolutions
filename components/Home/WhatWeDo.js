@@ -36,7 +36,7 @@ const WhatWeDo = () => (
           We help people out of these situations and more! We can provide
           you with a no-obligation, all cash offer and get you out from
           under your problem property quickly. You choose the closing date,
-          and we pay all closing costs.
+          and we pay all traditional closing costs.
         </p>
       </section>
       <section>
